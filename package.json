@@ -1,0 +1,56 @@
+{
+  "name": "jquery.slider",
+  "version": "1.2.0",
+  "description": "Jquery slider",
+  "homepage": "http://egorkhmelev.github.com/jslider/",
+  "keywords": [
+    "jquery",
+    "dom",
+    "slider"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "yuicompressor": "~2.4.7"
+  },
+  "jam": {
+    "main": "dist/jquery.slider.amd.min.js",
+    "include": [
+      "dist/jquery.slider.amd.min.js",
+      "dist/jquery.slider.min.css",
+      "README.md",
+      "CHANGES.md",
+      "MIT_LICENSE.txt",
+      "package.json",
+      "img"
+    ]
+  },
+  "maintainers": [
+    {
+      "name": "Richard Mitchell",
+      "email": "richard.mitchell@salesseek.co.uk"
+    } 
+  ],
+  "contributors": [
+    {
+      "name": "Egor Khmelev",
+      "email": "hmelyoff@gmail.com",
+      "web": "http://egorkhmelev.com/" 
+    } 
+  ],
+  "bugs": "https://github.com/SalesSeek/jslider/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git", 
+      "url": "http://github.com/SalesSeek/jslider.git"
+    }
+  ],
+  "github": "http://github.com/SalesSeek/jslider"
+}
