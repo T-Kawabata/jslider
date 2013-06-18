@@ -1,0 +1,56 @@
+{
+  "name": "jquery.slider",
+  "version": "1.0.0",
+  "description": "jQuery Slider",
+  "homepage": "http://egorkhmelev.github.com/jslider/",
+  "keywords": [
+    "jquery",
+    "dom",
+    "slider"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-yui-compressor": "~0.3.0"
+  },
+  "jam": {
+    "main": "dist/jquery.slider.min.js",
+    "include": [
+      "dist/jquery.slider.min.js",
+      "dist/jquery.slider.min.css",
+      "README.md",
+      "CHANGES.md",
+      "MIT_LICENSE.txt",
+      "package.json",
+      "img"
+    ]
+  },
+  "maintainers": [
+    {
+      "name": "T.Kawabata",
+      "email": ""
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Egor Khmelev",
+      "email": "hmelyoff@gmail.com",
+      "web": "http://egorkhmelev.com/"
+    }
+  ],
+  "bugs": "https://github.com/T-Kawabata/jslider/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "http://github.com/T-Kawabata/jslider.git"
+    }
+  ],
+  "github": "http://github.com/T-Kawabata/jslider"
+}

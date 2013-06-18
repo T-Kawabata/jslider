@@ -1,0 +1,36 @@
+
+  .jslider { display: block; width: 100%; height: 1em; position: relative; top: 0.6em; font-family: Arial, sans-serif; }
+
+  .jslider .jslider-header   { height: 36px; font-size: 16px; line-height: 16px; white-space: nowrap; }
+  .jslider .jslider-label    { float: left;  padding: 2px 0px; color: black; opacity: 0.4; }
+  .jslider .jslider-label-to { float: right; }
+  .jslider .jslider-value    { left: 20%; padding: 2px; position: absolute; background: white; -webkit-border-radius: 2px; border-radius: 2px; }
+  .jslider .jslider-value-to { left: 80%; }
+
+  .jslider .jslider-body   { position: relative; height: 32px; }
+  .jslider .jslider-bg     { }
+  .jslider .jslider-bg div { height: 18px; background-image: url(slider-background.png);}
+  .jslider .jslider-bg .l  { float: left;   width: 9px;  background-position:  0px   0px; background-repeat: no-repeat; }
+  .jslider .jslider-bg .r  { float: right;  width: 9px;  background-position:  0px -48px; background-repeat: no-repeat; }
+  .jslider .jslider-bg .f  { margin: 0 9px;              background-position:  0px -24px; background-repeat: repeat-x;  }
+  .jslider .jslider-bg .v  { position: absolute; top: 0; background-position:  0px -96px; background-repeat: repeat-x;  }
+
+  .jslider .jslider-pointer       { background: url(slider-pointer.png) no-repeat 0 0; }
+  .jslider .jslider-pointer       { width: 44px; height: 44px; background-position: 0 0; position: absolute; top: -13px; margin-left: -22px; cursor: pointer; }
+  .jslider .jslider-pointer-hover { }
+  .jslider .jslider-pointer-to    { }
+
+
+  .jslider .jslider-label small,
+  .jslider .jslider-value small { position: relative; top: -0.4em; }
+
+  .jslider .jslider-scale { position: relative; font-size: 16px; color: #999; text-decoration: none;}
+  .jslider .jslider-scale span  { position: absolute; height: 5px; border-left: 1px solid #999; }
+  .jslider .jslider-scale label { position: absolute; top: 5px; }
+
+  .jslider-single .jslider-pointer-to,
+  .jslider-single .jslider-value-to,
+  .jslider-single .jslider-bg .v,
+  .jslider-limitless .jslider-label { display: none; }
+
+
